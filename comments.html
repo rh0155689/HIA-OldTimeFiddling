@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&family=Sansita+Swashed:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+    <title>Comments</title>
+</head>
+<body id="comments">
+    
+    <div class="containerBody">     
+        <div class="header-container">             
+            
+            <h1 class="header">             
+                Missouri Old-Time Fiddle Music
+            </h1>
+           
+            <div class="dropdown">
+              <button class="dropbtn">Dropdown</button>
+                <div class="dropdown-content">
+                    <a href="index.html">Introduction</a>
+                  <a href="timeline.html">Timeline</a>
+                  <a href="heritage.html">Heritage</a>
+                  <a href="influential.html">Influential Musicians</a>
+                  <a href="discovery.html">Further Discovery</a>
+                  <a href="legacy.html">Support the Legacy</a>                  
+                </div>
+            </div>      
+        </div>
+
+        <div class="comments">
+            <div class="comments-text">
+                <h1>Comments</h1>
+                <p>This space is available for you to share a reflection about what our website has imparted upon you. This can be something you’ve learned, a general thought or feeling, questions concerning old-time fiddling or information you would like to add to help our website continue to grow. We hope that you will take the time to leave us a brief message and thank you for taking the time to explore old-time fiddling.</p>               
+            </div>
+
+            <button class="navbutton" onClick="clearComment()">Clear Comment</button>
+            <button class="navbutton" onClick="saveComment()">Save Comment </button>
+
+            <div id="dtext">
+            <h4>Your comment</h4>
+            <input id="namebox" type="text" maxlength="32" size="20" placeholder="Name" />
+            <br />
+            <textarea id="txt1" class="textbox" rows="6" placeholder="Your comment"></textarea>
+            </div>
+
+            <h4>Comments</h4>
+            <div id="cmtlist"></div>
+        </div>   
+
+        
+    </div> 
+    <script src="app.js"></script>   
+</body>
+</html>
