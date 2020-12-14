@@ -11,7 +11,7 @@
     height: 100%;       
 }
 .intro-text h1, .intro-text p {
-    background-color:rgb(214, 178, 132);
+    background-color:white;
     opacity: 0.99;
     padding:15px;
     margin-bottom: 10px;
@@ -40,7 +40,7 @@
 
 /* Applys to the timeline page */
 #timeline {
-    background-color: rgb(214, 178, 132);
+    background-color: white;
     background-image: url("timeline.jpg");
     background-repeat: no-repeat;
     background-size: cover;     
@@ -147,7 +147,7 @@
     border-left: .25px solid rgb(187, 120, 31, 0.9);
 }
 .content li {
-    background-color:rgb(214, 178, 132);
+    background-color:white;
     opacity: 0.99;
     width: 95%;
     padding:15px;
@@ -197,7 +197,7 @@
     height: 100%;  
 }
 .heritage-text h1, .heritage-text p, .comments-text h1, .comments-text p {
-    background-color:rgb(214, 178, 132);
+    background-color:white;
     opacity: 0.99;
     padding:15px;
     border-radius:5px;
@@ -374,7 +374,7 @@
     margin-left: 20%;    
 } */
 .influential {        
-    background-color: rgb(187, 120, 31, 0.93);
+    background-color:white;
     background-image:url("wood.jpg");
     border-radius: 5px;
     width: 60%;
@@ -391,7 +391,7 @@
     opacity: .93;    
 }
 .influential-text h1, .influential-text p {
-    background-color:rgb(214, 178, 132);
+    background-color:white;
     opacity: 0.99;
     padding:15px;
     border-radius:5px;
@@ -450,6 +450,7 @@ a {
     width: 10%;
     text-decoration: none;
     display: inline;
+    font-style: italic;
 }
 a:hover {
     color:  rgb(187, 120, 31);
@@ -458,7 +459,7 @@ a:link {
     color: blue;
 }
 a:visited {
-    color:lightblue;
+    color:blue;
 }
 a:visited:hover {
     color:  rgb(187, 120, 31);
