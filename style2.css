@@ -381,7 +381,7 @@
     height: auto;
     padding: 15px;
     margin-top: 25px;
-    margin-left: 35%;
+    margin-left: 20%;
     text-align: center;    
     color: black;
     box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
@@ -492,13 +492,14 @@ a:visited:hover {
 
 /* Code below relates to the drop down menu in each page */
 .dropbtn {    
-    background-color:rgb(214, 178, 132);    
+    background-color: rgb(235, 163, 69);   
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
     border-radius: 6px; 
-    margin: 15px;     
+    margin: 15px;  
+    text-shadow: 1px 1px black;   
   }  
   .dropdown {     
     width: 10%;
@@ -526,7 +527,8 @@ a:visited:hover {
       display: block;
     }  
   .dropdown:hover .dropbtn {
-      background-color: rgb(235, 163, 69);
+      background-color: white;
+      color:rgb(235, 163, 69);
     }
 
 
