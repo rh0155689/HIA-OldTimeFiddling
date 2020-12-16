@@ -196,29 +196,33 @@
     background-size: cover; 
     height: 100%;  
 }
-.heritage-text h1, .heritage-text p, .comments-text h1, .comments-text p {
-    background-color:white;
+.heritage-text li {
+    background-color: white;
     opacity: 0.99;
-    padding:15px;
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px;
+    text-align: left;
     border-radius:5px;
     box-shadow: 2px 2px rgb(187, 120, 31, 0.9);
     border-top: .25px solid rgb(187, 120, 31, 0.9);
     border-left: .25px solid rgb(187, 120, 31, 0.9);
     font-weight: bold;
 }
-.heritage-text h1, .comments-text h1 {
+.heritage-text h1 {
     width: 75%;
     margin-left: 11%;
-    margin-bottom: 10px;
-    margin-top: 10px;
     background-color: transparent;
     color: rgb(235, 163, 69);
+    box-shadow: 2px 2px rgb(187, 120, 31, 0.9);
+    border-radius:5px;
+    border-top: .25px solid rgb(187, 120, 31, 0.9);
+    border-left: .25px solid rgb(187, 120, 31, 0.9);
     font-family: 'Sansita Swashed', cursive;
     text-shadow: 2px 2px black;
     text-align: center;
-}
-.heritage-text p, .comments-text p {
-    font-size: 20px;
+    opacity: 0.99;
+    padding:15px;
 }
 .heritage, .comments {
     opacity: .98;
@@ -453,16 +457,16 @@ a {
     font-style: italic;
 }
 a:hover {
-    color:  rgb(187, 120, 31);
-}
-a:link {
-    color: blue;
-}
-a:visited {
     color:blue;
 }
-a:visited:hover {
+a:link {
     color:  rgb(187, 120, 31);
+}
+a:visited {
+    color:rgb(187, 120, 31);
+}
+a:visited:hover {
+    color: blue;
 } 
 
 /* Applys to the header on every page */
