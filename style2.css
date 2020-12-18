@@ -55,7 +55,7 @@
     text-shadow: 1px 1px black;   
   }  
   .dropdown {     
-    width: 10%;
+    width: 7%;
     position: relative;
     display: inline-block;
   }  
@@ -64,7 +64,7 @@
     position: absolute;
     background-color: #f1f1f1;
     background-image: url("wood.jpg");
-    min-width: 160px;
+    min-width: 60px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }  
@@ -88,6 +88,11 @@
      .header {
         margin-left:20%;
     } 
+}
+@media screen and (max-width: 750px) {
+    .dropdown-content a {
+        font-size: 15px;
+    }        
 }
 
 .header-container {
@@ -136,6 +141,9 @@ a:visited:hover {
     background-size: cover;     
     height: 100%;       
 }
+.intro {
+    opacity: .98;    
+}
 .intro-text h1, .intro-text p {
     background-color:white;
     opacity: 0.99;
@@ -159,9 +167,6 @@ a:visited:hover {
 }
 .intro-text p {
     font-size: 20px;
-}
-.intro {
-    opacity: .98;
 }
 
 /* Applys to the timeline page */
@@ -357,8 +362,8 @@ a:visited:hover {
     opacity: 0.99;
     padding:15px;
 }
-.heritage, .comments {
-    opacity: .98;
+.heritage {
+    opacity: .98;    
 }
 .heritage, .intro, .comments {
     background-color: rgb(187, 120, 31, 0.93);
@@ -400,7 +405,7 @@ a:visited:hover {
     box-shadow: 2px 2px rgb(187, 120, 31, 0.5);
     border-top: .25px solid rgb(187, 120, 31, 0.5);
     border-left: .25px solid rgb(187, 120, 31, 0.5);
-    opacity: .93;    
+    opacity: .93;      
 }
 .discovery-text li { 
     background-color:black; 
